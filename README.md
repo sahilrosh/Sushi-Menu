@@ -6,17 +6,9 @@ An augmented reality sushi menu built with Unity and Vuforia. Point your device 
 
 ## Demo
 
-<!-- Replace the link below with your screen recording (GitHub upload, YouTube, etc.) -->
-
-**Screen recording:** _Coming soon_
-
-<!--
-Example once uploaded:
-https://github.com/YOUR_USERNAME/SushiMenu/assets/XXXX/demo.mp4
-
-Or embed from YouTube:
-[![SushiMenu demo](docs/media/demo-thumbnail.png)](https://youtu.be/YOUR_VIDEO_ID)
--->
+<video src="Assets/screen_recording.mp4" controls width="100%">
+  <a href="Assets/screen_recording.mp4">Watch the screen recording</a>
+</video>
 
 ---
 
@@ -149,9 +141,8 @@ SushiMenu/
 When adding demo material, use this folder:
 
 ```
+Assets/screen_recording.mp4   # Demo video (embedded in README above)
 docs/media/
-├── demo.mp4              # Screen recording
-├── demo-thumbnail.png    # Optional thumbnail for README
 ├── screenshot-01.png
 ├── screenshot-02.png
 └── ...
