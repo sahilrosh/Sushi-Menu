@@ -141,8 +141,9 @@ Assets/
 ├── img3.jpeg               # Salmon sushi screenshot
 ├── menu-preview.png        # Thumbnail of printable menu (README)
 ├── Sahil Sushi Menu.pdf    # Printable menu for AR scanning
+├── screen_recording.mp4    # Source demo video (regenerate GIF after edits)
 docs/media/
-└── screen_recording.gif    # Demo GIF (autoplays in README)
+└── screen_recording.gif    # Demo GIF for README (autoplays on GitHub)
 ```
 
 ---
