@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="salmonsushi" size="1.000000 0.719496" />
+    <ImageTarget name="vegsushi" size="1.000000 1.000000" />
+    <ImageTarget name="sushicombo" size="1.000000 0.779412" />
+  </Tracking>
+</QCARConfig>
