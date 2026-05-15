@@ -14,7 +14,7 @@ An augmented reality sushi menu built with Unity and Vuforia. Point your device 
 
 ## Screenshots
 
-| Full menu | Salmon sushi | Veg sushi | Printable menu |
+| Salmon Sushi | Combo sushi | Veg sushi | Printable menu |
 | :---: | :---: | :---: | :---: |
 | ![Full menu with AR overlays](Assets/img2.jpeg) | ![Salmon sushi AR on menu marker](Assets/img3.jpeg) | ![Veg sushi AR on menu marker](Assets/img1.jpeg) | [![Printable AR menu — click to download PDF](Assets/menu-preview.png)](Assets/Sahil%20Sushi%20Menu.pdf) |
 
