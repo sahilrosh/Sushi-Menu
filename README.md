@@ -10,7 +10,6 @@ An augmented reality sushi menu built with Unity and Vuforia. Point your device 
   <img alt="SushiMenu AR demo — point camera at menu markers to view 3D sushi" src="Assets/screen_recording.gif?v=3" width="300">
 </div>
 
-<sub>After replacing <code>Assets/screen_recording.mp4</code>, run <code>./scripts/update-demo-gif.sh</code>, bump <code>?v=</code> in the image URL above, then commit both files.</sub>
 
 ---
 
