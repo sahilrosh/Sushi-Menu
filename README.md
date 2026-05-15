@@ -119,35 +119,25 @@ Bundle ID: `com.SahilRoshan.SushiMenu`
 ```
 SushiMenu/
 ├── Assets/
-│   ├── Scenes/              # Main scene (SampleScene)
-│   ├── my food/             # Menu markers, prefabs, sushi assets
-│   ├── StreamingAssets/     # Vuforia target database (menu.xml, menu.dat)
-│   ├── JapaneseFood_Sushi Free/  # 3D sushi models (asset pack)
-│   ├── Plugins/             # Lean Touch and shared plugins
-│   └── Resources/
-├── Packages/                # manifest.json + Vuforia .tgz
+│   ├── Scenes/                    # Main scene (SampleScene)
+│   ├── my food/                   # Menu markers, prefabs, sushi assets
+│   ├── StreamingAssets/Vuforia/   # AR target database (menu.xml, menu.dat)
+│   ├── JapaneseFood_Sushi Free/   # 3D sushi models (asset pack)
+│   ├── Plugins/                   # Lean Touch and shared plugins
+│   ├── Resources/
+│   ├── img1.jpeg … img3.jpeg      # README screenshots
+│   ├── menu-preview.png           # Printable menu preview (README)
+│   ├── Sahil Sushi Menu.pdf       # Printable menu for AR scanning
+│   ├── screen_recording.mp4       # Demo video (source)
+│   └── screen_recording.gif       # Demo GIF for README (autoplays on GitHub)
+├── Packages/                      # manifest.json (+ Vuforia .tgz locally)
 ├── ProjectSettings/
-└── docs/media/              # Screenshots & demo video (add your files here)
+├── scripts/
+│   └── update-demo-gif.sh         # Regenerate screen_recording.gif from mp4
+└── README.md
 ```
 
----
-
-## Media Assets (for contributors)
-
-When adding demo material, use this folder:
-
-```
-Assets/
-├── img1.jpeg               # Veg sushi screenshot
-├── img2.jpeg               # Full menu screenshot
-├── img3.jpeg               # Salmon sushi screenshot
-├── menu-preview.png        # Thumbnail of printable menu (README)
-├── Sahil Sushi Menu.pdf    # Printable menu for AR scanning
-├── screen_recording.mp4    # Source demo video
-├── screen_recording.gif    # README demo (run scripts/update-demo-gif.sh after editing mp4)
-scripts/
-└── update-demo-gif.sh      # Regenerates screen_recording.gif from the mp4
-```
+> **README media** lives under `Assets/`, not `docs/media/`. After editing `screen_recording.mp4`, run `./scripts/update-demo-gif.sh` and bump `?v=` in the README demo image URL.
 
 ---
 
