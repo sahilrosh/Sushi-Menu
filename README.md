@@ -14,17 +14,11 @@ An augmented reality sushi menu built with Unity and Vuforia. Point your device 
 
 ## Screenshots
 
-<!-- Add images to docs/media/ and update the paths below -->
+| Full menu | Salmon sushi | Veg sushi | Printable menu |
+| :---: | :---: | :---: | :---: |
+| ![Full menu with AR overlays](Assets/img2.jpeg) | ![Salmon sushi AR on menu marker](Assets/img3.jpeg) | ![Veg sushi AR on menu marker](Assets/img1.jpeg) | [![Printable AR menu — click to download PDF](Assets/menu-preview.png)](Assets/Sahil%20Sushi%20Menu.pdf) |
 
-| Main view | AR tracking |
-| :---: | :---: |
-| ![Screenshot 1 — add your image](docs/media/screenshot-01.png) | ![Screenshot 2 — add your image](docs/media/screenshot-02.png) |
-
-| Menu item | Menu item |
-| :---: | :---: |
-| ![Screenshot 3 — add your image](docs/media/screenshot-03.png) | ![Screenshot 4 — add your image](docs/media/screenshot-04.png) |
-
-> **Tip:** Place screenshots in [`docs/media/`](docs/media/). Recommended names: `screenshot-01.png`, `screenshot-02.png`, etc.
+Print [**Sahil Sushi Menu.pdf**](Assets/Sahil%20Sushi%20Menu.pdf), then point the app camera at the menu to see the 3D food models overlaid on each dish.
 
 ---
 
@@ -103,7 +97,7 @@ Tracking is configured in `Assets/StreamingAssets/Vuforia/menu.xml`:
 | `vegsushi` | `Assets/my food/veg sushi.jpg` |
 | `sushicombo` | `Assets/my food/sushi combo .jpg` |
 
-Print the marker images at a reasonable size, launch the app, and point the camera at a marker to see the associated 3D prefab.
+Download and print [**Sahil Sushi Menu.pdf**](Assets/Sahil%20Sushi%20Menu.pdf) (or use the individual marker images below). Launch the app and point the camera at a target to see the associated 3D prefab.
 
 ---
 
@@ -141,12 +135,14 @@ SushiMenu/
 When adding demo material, use this folder:
 
 ```
+Assets/
+├── img1.jpeg               # Veg sushi screenshot
+├── img2.jpeg               # Full menu screenshot
+├── img3.jpeg               # Salmon sushi screenshot
+├── menu-preview.png        # Thumbnail of printable menu (README)
+├── Sahil Sushi Menu.pdf    # Printable menu for AR scanning
 docs/media/
-├── screen_recording.gif    # Demo GIF (autoplays in README)
-├── screen_recording.mp4    # Optional: full-quality recording (not in README)
-├── screenshot-01.png
-├── screenshot-02.png
-└── ...
+└── screen_recording.gif    # Demo GIF (autoplays in README)
 ```
 
 ---
