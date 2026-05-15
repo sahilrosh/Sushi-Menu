@@ -6,23 +6,9 @@ An augmented reality sushi menu built with Unity and Vuforia. Point your device 
 
 ## Demo
 
-> **Preview in Cursor/VS Code?** Local Markdown preview cannot play video — you will only see the play button below. The inline player works on **GitHub.com** after you complete the one-time setup in step 2.
-
-[![Watch screen recording](https://img.shields.io/badge/▶-Play_screen_recording-FF6B6B?style=for-the-badge)](https://github.com/sahilrosh/Sushi-Menu/blob/main/Assets/screen_recording.mp4)
-
-### Inline player on GitHub (one-time setup)
-
-GitHub does **not** play videos from relative paths like `Assets/screen_recording.mp4`. To get a player in the README:
-
-1. Open [edit README on GitHub](https://github.com/sahilrosh/Sushi-Menu/edit/main/README.md).
-2. Drag `Assets/screen_recording.mp4` from your computer into the editor (or use **Attach files** at the bottom).
-3. GitHub uploads it and inserts a `https://github.com/user-attachments/assets/...` URL.
-4. Replace the `<video>` block below with the tag GitHub generated (or paste the URL on its own line).
-5. Commit on GitHub.
-
-<video src="https://github.com/user-attachments/assets/REPLACE_ME" controls width="100%">
-  <a href="https://github.com/sahilrosh/Sushi-Menu/blob/main/Assets/screen_recording.mp4">Watch the screen recording</a>
-</video>
+<div align="center">
+  <img alt="SushiMenu AR demo — point camera at menu markers to view 3D sushi" src="docs/media/screen_recording.gif" width="280">
+</div>
 
 ---
 
@@ -155,8 +141,9 @@ SushiMenu/
 When adding demo material, use this folder:
 
 ```
-Assets/screen_recording.mp4   # Demo video (embedded in README above)
 docs/media/
+├── screen_recording.gif    # Demo GIF (autoplays in README)
+├── screen_recording.mp4    # Optional: full-quality recording (not in README)
 ├── screenshot-01.png
 ├── screenshot-02.png
 └── ...
